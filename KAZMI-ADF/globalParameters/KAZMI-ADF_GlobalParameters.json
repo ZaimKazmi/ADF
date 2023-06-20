@@ -1,0 +1,6 @@
+{
+	"AzureKeyVault": {
+		"type": "bool",
+		"value": true
+	}
+}
