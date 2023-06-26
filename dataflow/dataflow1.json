@@ -18,7 +18,11 @@
 						"referenceName": "TestTable",
 						"type": "DatasetReference"
 					},
-					"name": "sink"
+					"name": "sink",
+					"rejectedDataLinkedService": {
+						"referenceName": "AzureBlobStorage",
+						"type": "LinkedServiceReference"
+					}
 				}
 			],
 			"transformations": [],
@@ -46,7 +50,12 @@
 				"     format: 'table',",
 				"     skipDuplicateMapInputs: true,",
 				"     skipDuplicateMapOutputs: true,",
-				"     errorHandlingOption: 'stopOnFirstError',",
+				"     errorHandlingOption: 'allErrors',",
+				"     outputRejectedData: true,",
+				"     rejectedData_container: 'input',",
+				"     rejectedData_folderPath: 'sys',",
+				"     transactionCommit: 'batch',",
+				"     reportSuccessOnError: true,",
 				"     mapColumn(",
 				"          name,",
 				"          number",
