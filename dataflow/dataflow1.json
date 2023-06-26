@@ -18,7 +18,7 @@
 						"referenceName": "TestTable",
 						"type": "DatasetReference"
 					},
-					"name": "sink1"
+					"name": "sink"
 				}
 			],
 			"transformations": [],
@@ -50,7 +50,7 @@
 				"     mapColumn(",
 				"          name,",
 				"          number",
-				"     )) ~> sink1"
+				"     )) ~> sink"
 			]
 		}
 	}
