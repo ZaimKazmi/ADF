@@ -1,0 +1,17 @@
+{
+	"name": "KAZMI-ADF",
+	"properties": {
+		"globalParameters": {
+			"AzureKeyVault": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	},
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0168fe0b-f711-4af7-8cb7-1b0a7889e241",
+		"tenantId": "e32b9b76-fb11-4fa0-b1ba-191021ea70c9"
+	}
+}
