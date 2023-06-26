@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "KAZMI-ADF"
 		},
+		"AzureBlobStorage_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
